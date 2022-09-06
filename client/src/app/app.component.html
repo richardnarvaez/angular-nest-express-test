@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">HTTP Only Cookie</a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" active routerLink="/">Home</a>
+        </li>
+        <li class="nav-item" *ngIf="(userInfo?.id ?? 0) === 0">
+          <a class="nav-link" routerLink="/login">Login</a>
+        </li>
+        <li class="nav-item" *ngIf="(userInfo?.id ?? 0) !== 0">
+          <a class="nav-link" routerLink="/dashboard">Dashboard</a>
+        </li>
+      </ul>
+      <ul class="d-flex navbar-nav" *ngIf="(userInfo?.id ?? 0) !== 0">
+        <li class="nav-item">
+          <a class="nav-link" active>{{ userInfo?.email }}</a>
+        </li>
+        <li class="nav-item text-dark" (click)="logOut()">
+          <button class="btn btn-primary" type="button">SignOut</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>

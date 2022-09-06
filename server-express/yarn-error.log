@@ -1,0 +1,31 @@
+Arguments: 
+  /Users/macbookpro/.nvm/versions/node/v16.15.0/bin/node /usr/local/Cellar/yarn/1.22.11/libexec/bin/yarn.js
+
+PATH: 
+  /Users/macbookpro/.nvm/versions/node/v16.15.0/bin:/Volumes/SSD/sndcpy/sndcpy/:/usr/local/share/npm/bin:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/macbookpro/.nvm/versions/node/v16.15.0/bin:/Volumes/SSD/sndcpy/sndcpy/:/usr/local/share/npm/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/macbookpro/.fig/bin:/Users/macbookpro/.local/bin:/Users/macbookpro/Documents/flutter/bin:/opt/gradle/gradle-7.3.3/bin:/Users/macbookpro/Documents/flutter/bin:/opt/gradle/gradle-7.3.3/bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.15.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/macbookpro/Documents/angular-test/server-express/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.11/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.11/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.11/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
